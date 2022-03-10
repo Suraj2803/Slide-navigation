@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(199, 230, 230);
+}
+.main {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  background-color: rgba(102, 137, 153, 0.664);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.navbar {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+ul li a {
+  display: block;
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(102, 137, 153, 0.664);
+  padding: 4px;
+  transition: 0.5s;
+}
+ul li a:hover {
+  color: rgb(255, 115, 0);
+}
+ul li a:focus {
+  color: rgba(0, 0, 0, 0.596);
+}
+#close {
+  position: absolute;
+  top: -1px;
+  margin-left: 1350px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 55px;
+  color: white;
+  transition: 0.5s;
+  background-color: rgba(155, 176, 185, 0.158);
+  border: none;
+}
+#close:hover {
+  color: rgb(255, 0, 0);
+}
+.bt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 20px;
+  border: none;
+  color: rgb(244, 242, 247);
+  background-color: rgb(255, 153, 0);
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.bt:hover {
+  color: rgb(255, 153, 0);
+  background-color: white;
+}
